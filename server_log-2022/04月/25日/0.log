@@ -1,0 +1,119 @@
+2022-04-25 22:29:27.951  INFO 1852 --- [main] m.r.RabbitMqLazyQueueApplication         : Starting RabbitMqLazyQueueApplication using Java 16.0.2 on mao with PID 1852 (H:\程序\大三下期\rabbitMQ惰性队列\target\classes started by mao in H:\程序\大三下期\rabbitMQ惰性队列)
+2022-04-25 22:29:27.954 DEBUG 1852 --- [main] m.r.RabbitMqLazyQueueApplication         : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-04-25 22:29:27.954  INFO 1852 --- [main] m.r.RabbitMqLazyQueueApplication         : The following 1 profile is active: "dev"
+2022-04-25 22:29:28.716  INFO 1852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-25 22:29:28.724  INFO 1852 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-25 22:29:28.724  INFO 1852 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-04-25 22:29:28.809  INFO 1852 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-25 22:29:28.809  INFO 1852 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 813 ms
+2022-04-25 22:29:29.286  INFO 1852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-25 22:29:29.295  INFO 1852 --- [main] m.r.RabbitMqLazyQueueApplication         : Started RabbitMqLazyQueueApplication in 1.73 seconds (JVM running for 2.219)
+2022-04-25 22:30:14.229  INFO 1852 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-25 22:30:14.229  INFO 1852 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-25 22:30:14.230  INFO 1852 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-25 22:30:14.246  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 开始发送1000000条数据测试
+2022-04-25 22:30:14.248  INFO 1852 --- [http-nio-8080-exec-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:5672]
+2022-04-25 22:30:14.271  INFO 1852 --- [http-nio-8080-exec-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#765ffb14:0/SimpleConnection@302b09f7 [delegate=amqp://admin@127.0.0.1:5672/, localPort= 50077]
+2022-04-25 22:30:14.275  INFO 1852 --- [http-nio-8080-exec-1] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable or auto-delete Exchange (exchange) durable:false, auto-delete:false. It will be deleted by the broker if it shuts down, and can be redeclared by closing and reopening the connection.
+2022-04-25 22:30:14.276  INFO 1852 --- [http-nio-8080-exec-1] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (default_queue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-04-25 22:30:14.276  INFO 1852 --- [http-nio-8080-exec-1] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (lazy_queue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-04-25 22:30:14.318  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第0个1000条消息
+2022-04-25 22:30:14.397  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第1个1000条消息
+2022-04-25 22:30:14.432  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第2个1000条消息
+2022-04-25 22:30:14.468  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第3个1000条消息
+2022-04-25 22:30:14.500  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第4个1000条消息
+2022-04-25 22:30:14.532  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第5个1000条消息
+2022-04-25 22:30:14.564  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第6个1000条消息
+2022-04-25 22:30:14.596  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第7个1000条消息
+2022-04-25 22:30:14.630  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第8个1000条消息
+2022-04-25 22:30:14.662  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第9个1000条消息
+2022-04-25 22:30:14.693  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第10个1000条消息
+2022-04-25 22:30:14.722  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第11个1000条消息
+2022-04-25 22:30:14.754  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第12个1000条消息
+2022-04-25 22:30:14.786  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第13个1000条消息
+2022-04-25 22:30:14.817  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第14个1000条消息
+2022-04-25 22:30:14.850  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第15个1000条消息
+2022-04-25 22:30:14.884  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第16个1000条消息
+2022-04-25 22:30:14.914  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第17个1000条消息
+2022-04-25 22:30:14.946  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第18个1000条消息
+2022-04-25 22:30:14.973  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第19个1000条消息
+2022-04-25 22:30:15.002  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第20个1000条消息
+2022-04-25 22:30:15.030  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第21个1000条消息
+2022-04-25 22:30:15.066  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第22个1000条消息
+2022-04-25 22:30:15.097  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第23个1000条消息
+2022-04-25 22:30:15.126  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第24个1000条消息
+2022-04-25 22:30:15.155  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第25个1000条消息
+2022-04-25 22:30:15.191  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第26个1000条消息
+2022-04-25 22:30:15.224  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第27个1000条消息
+2022-04-25 22:30:15.251  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第28个1000条消息
+2022-04-25 22:30:15.283  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第29个1000条消息
+2022-04-25 22:30:15.316  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第30个1000条消息
+2022-04-25 22:30:15.347  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第31个1000条消息
+2022-04-25 22:30:15.379  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第32个1000条消息
+2022-04-25 22:30:15.408  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第33个1000条消息
+2022-04-25 22:30:15.438  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第34个1000条消息
+2022-04-25 22:30:15.469  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第35个1000条消息
+2022-04-25 22:30:15.497  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第36个1000条消息
+2022-04-25 22:30:15.528  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第37个1000条消息
+2022-04-25 22:30:15.560  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第38个1000条消息
+2022-04-25 22:30:15.589  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第39个1000条消息
+2022-04-25 22:30:15.625  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第40个1000条消息
+2022-04-25 22:30:15.660  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第41个1000条消息
+2022-04-25 22:30:15.688  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第42个1000条消息
+2022-04-25 22:30:15.723  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第43个1000条消息
+2022-04-25 22:30:15.763  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第44个1000条消息
+2022-04-25 22:30:15.803  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第45个1000条消息
+2022-04-25 22:30:15.834  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第46个1000条消息
+2022-04-25 22:30:15.873  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第47个1000条消息
+2022-04-25 22:30:15.902  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第48个1000条消息
+2022-04-25 22:30:15.936  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第49个1000条消息
+2022-04-25 22:30:15.966  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第50个1000条消息
+2022-04-25 22:30:15.995  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第51个1000条消息
+2022-04-25 22:30:16.023  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第52个1000条消息
+2022-04-25 22:30:16.052  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第53个1000条消息
+2022-04-25 22:30:16.081  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第54个1000条消息
+2022-04-25 22:30:16.110  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第55个1000条消息
+2022-04-25 22:30:16.139  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第56个1000条消息
+2022-04-25 22:30:16.166  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第57个1000条消息
+2022-04-25 22:30:16.196  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第58个1000条消息
+2022-04-25 22:30:16.226  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第59个1000条消息
+2022-04-25 22:30:16.258  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第60个1000条消息
+2022-04-25 22:30:16.293  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第61个1000条消息
+2022-04-25 22:30:16.325  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第62个1000条消息
+2022-04-25 22:30:16.354  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第63个1000条消息
+2022-04-25 22:30:16.382  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第64个1000条消息
+2022-04-25 22:30:16.410  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第65个1000条消息
+2022-04-25 22:30:16.439  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第66个1000条消息
+2022-04-25 22:30:16.468  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第67个1000条消息
+2022-04-25 22:30:16.503  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第68个1000条消息
+2022-04-25 22:30:16.532  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第69个1000条消息
+2022-04-25 22:30:16.558  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第70个1000条消息
+2022-04-25 22:30:16.595  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第71个1000条消息
+2022-04-25 22:30:16.632  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第72个1000条消息
+2022-04-25 22:30:16.660  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第73个1000条消息
+2022-04-25 22:30:16.690  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第74个1000条消息
+2022-04-25 22:30:16.720  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第75个1000条消息
+2022-04-25 22:30:16.750  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第76个1000条消息
+2022-04-25 22:30:16.786  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第77个1000条消息
+2022-04-25 22:30:16.819  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第78个1000条消息
+2022-04-25 22:30:16.847  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第79个1000条消息
+2022-04-25 22:30:16.873  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第80个1000条消息
+2022-04-25 22:30:16.900  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第81个1000条消息
+2022-04-25 22:30:16.928  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第82个1000条消息
+2022-04-25 22:30:16.956  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第83个1000条消息
+2022-04-25 22:30:16.985  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第84个1000条消息
+2022-04-25 22:30:17.017  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第85个1000条消息
+2022-04-25 22:30:17.046  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第86个1000条消息
+2022-04-25 22:30:17.073  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第87个1000条消息
+2022-04-25 22:30:17.103  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第88个1000条消息
+2022-04-25 22:30:17.133  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第89个1000条消息
+2022-04-25 22:30:17.163  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第90个1000条消息
+2022-04-25 22:30:17.191  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第91个1000条消息
+2022-04-25 22:30:17.220  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第92个1000条消息
+2022-04-25 22:30:17.247  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第93个1000条消息
+2022-04-25 22:30:17.281  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第94个1000条消息
+2022-04-25 22:30:17.320  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第95个1000条消息
+2022-04-25 22:30:17.353  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第96个1000条消息
+2022-04-25 22:30:17.386  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第97个1000条消息
+2022-04-25 22:30:17.419  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第98个1000条消息
+2022-04-25 22:30:17.449  INFO 1852 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第99个1000条消息

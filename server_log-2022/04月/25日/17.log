@@ -1,0 +1,101 @@
+2022-04-25 22:34:32.697  INFO 18224 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第980个1000条消息
+2022-04-25 22:34:32.794  INFO 18224 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第981个1000条消息
+2022-04-25 22:34:32.840  INFO 18224 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第982个1000条消息
+2022-04-25 22:34:32.896  INFO 18224 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第983个1000条消息
+2022-04-25 22:34:33.031  INFO 18224 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第984个1000条消息
+2022-04-25 22:34:33.064  INFO 18224 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第985个1000条消息
+2022-04-25 22:34:33.107  INFO 18224 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第986个1000条消息
+2022-04-25 22:34:33.142  INFO 18224 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第987个1000条消息
+2022-04-25 22:34:33.181  INFO 18224 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第988个1000条消息
+2022-04-25 22:34:33.219  INFO 18224 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第989个1000条消息
+2022-04-25 22:34:33.253  INFO 18224 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第990个1000条消息
+2022-04-25 22:34:33.288  INFO 18224 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第991个1000条消息
+2022-04-25 22:34:33.326  INFO 18224 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第992个1000条消息
+2022-04-25 22:34:33.366  INFO 18224 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第993个1000条消息
+2022-04-25 22:34:33.408  INFO 18224 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第994个1000条消息
+2022-04-25 22:34:33.448  INFO 18224 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第995个1000条消息
+2022-04-25 22:34:33.480  INFO 18224 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第996个1000条消息
+2022-04-25 22:34:33.520  INFO 18224 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第997个1000条消息
+2022-04-25 22:34:33.552  INFO 18224 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第998个1000条消息
+2022-04-25 22:34:33.588  INFO 18224 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 已发送第999个1000条消息
+2022-04-25 22:34:33.635  INFO 18224 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 发送完成
+2022-04-25 22:34:33.636  INFO 18224 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 程序运行时间：52596ms
+2022-04-25 22:52:50.494  INFO 3260 --- [main] m.r.RabbitMqLazyQueueApplication         : Starting RabbitMqLazyQueueApplication using Java 16.0.2 on mao with PID 3260 (H:\程序\大三下期\rabbitMQ惰性队列\target\classes started by mao in H:\程序\大三下期\rabbitMQ惰性队列)
+2022-04-25 22:52:50.496 DEBUG 3260 --- [main] m.r.RabbitMqLazyQueueApplication         : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-04-25 22:52:50.496  INFO 3260 --- [main] m.r.RabbitMqLazyQueueApplication         : The following 1 profile is active: "dev"
+2022-04-25 22:52:51.126  INFO 3260 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-25 22:52:51.134  INFO 3260 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-25 22:52:51.135  INFO 3260 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-04-25 22:52:51.210  INFO 3260 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-25 22:52:51.210  INFO 3260 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 678 ms
+2022-04-25 22:52:51.668  INFO 3260 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-25 22:52:51.669  INFO 3260 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:5672]
+2022-04-25 22:52:51.686  INFO 3260 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#71c17a57:0/SimpleConnection@3a36cd5 [delegate=amqp://admin@127.0.0.1:5672/, localPort= 51003]
+2022-04-25 22:52:51.689  INFO 3260 --- [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable or auto-delete Exchange (exchange) durable:false, auto-delete:false. It will be deleted by the broker if it shuts down, and can be redeclared by closing and reopening the connection.
+2022-04-25 22:52:51.689  INFO 3260 --- [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (default_queue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-04-25 22:52:51.689  INFO 3260 --- [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (lazy_queue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-04-25 22:52:52.130  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 消费者1开始消费普通队列的消息
+2022-04-25 22:52:52.130  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第0个1000条消息
+2022-04-25 22:52:52.132  INFO 3260 --- [main] m.r.RabbitMqLazyQueueApplication         : Started RabbitMqLazyQueueApplication in 1.961 seconds (JVM running for 2.442)
+2022-04-25 22:52:52.200  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第1个1000条消息
+2022-04-25 22:52:52.226  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第2个1000条消息
+2022-04-25 22:52:52.262  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第3个1000条消息
+2022-04-25 22:52:52.293  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第4个1000条消息
+2022-04-25 22:52:52.338  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第5个1000条消息
+2022-04-25 22:52:52.368  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第6个1000条消息
+2022-04-25 22:52:52.390  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第7个1000条消息
+2022-04-25 22:52:52.452  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第8个1000条消息
+2022-04-25 22:52:52.477  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第9个1000条消息
+2022-04-25 22:52:52.510  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第10个1000条消息
+2022-04-25 22:52:52.544  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第11个1000条消息
+2022-04-25 22:52:52.569  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第12个1000条消息
+2022-04-25 22:52:52.593  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第13个1000条消息
+2022-04-25 22:52:52.620  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第14个1000条消息
+2022-04-25 22:52:52.644  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第15个1000条消息
+2022-04-25 22:52:52.667  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第16个1000条消息
+2022-04-25 22:52:52.728  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第17个1000条消息
+2022-04-25 22:52:52.747  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第18个1000条消息
+2022-04-25 22:52:52.767  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第19个1000条消息
+2022-04-25 22:52:52.787  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第20个1000条消息
+2022-04-25 22:52:52.808  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第21个1000条消息
+2022-04-25 22:52:52.828  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第22个1000条消息
+2022-04-25 22:52:52.852  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第23个1000条消息
+2022-04-25 22:52:52.881  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第24个1000条消息
+2022-04-25 22:52:52.900  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第25个1000条消息
+2022-04-25 22:52:52.922  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第26个1000条消息
+2022-04-25 22:52:52.951  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第27个1000条消息
+2022-04-25 22:52:52.981  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第28个1000条消息
+2022-04-25 22:52:53.001  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第29个1000条消息
+2022-04-25 22:52:53.021  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第30个1000条消息
+2022-04-25 22:52:53.042  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第31个1000条消息
+2022-04-25 22:52:53.064  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第32个1000条消息
+2022-04-25 22:52:53.085  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第33个1000条消息
+2022-04-25 22:52:53.105  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第34个1000条消息
+2022-04-25 22:52:53.125  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第35个1000条消息
+2022-04-25 22:52:53.154  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第36个1000条消息
+2022-04-25 22:52:53.174  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第37个1000条消息
+2022-04-25 22:52:53.203  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第38个1000条消息
+2022-04-25 22:52:53.223  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第39个1000条消息
+2022-04-25 22:52:53.245  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第40个1000条消息
+2022-04-25 22:52:53.266  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第41个1000条消息
+2022-04-25 22:52:53.287  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第42个1000条消息
+2022-04-25 22:52:53.307  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第43个1000条消息
+2022-04-25 22:52:53.328  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第44个1000条消息
+2022-04-25 22:52:53.348  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第45个1000条消息
+2022-04-25 22:52:53.378  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第46个1000条消息
+2022-04-25 22:52:53.398  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第47个1000条消息
+2022-04-25 22:52:53.420  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第48个1000条消息
+2022-04-25 22:52:53.440  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第49个1000条消息
+2022-04-25 22:52:53.460  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第50个1000条消息
+2022-04-25 22:52:53.481  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第51个1000条消息
+2022-04-25 22:52:53.502  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第52个1000条消息
+2022-04-25 22:52:53.522  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第53个1000条消息
+2022-04-25 22:52:53.545  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第54个1000条消息
+2022-04-25 22:52:53.572  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第55个1000条消息
+2022-04-25 22:52:53.602  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第56个1000条消息
+2022-04-25 22:52:53.622  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第57个1000条消息
+2022-04-25 22:52:53.641  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第58个1000条消息
+2022-04-25 22:52:53.661  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第59个1000条消息
+2022-04-25 22:52:53.681  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第60个1000条消息
+2022-04-25 22:52:53.701  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第61个1000条消息
+2022-04-25 22:52:53.720  INFO 3260 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] m.r.consumer.Consumer1                   : 已接收第62个1000条消息
