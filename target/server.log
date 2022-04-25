@@ -1,0 +1,2 @@
+2022-04-25 23:04:17.227  INFO 5652 --- [http-nio-8080-exec-1] m.r.controller.MyController              : 程序运行时间：87376ms
+2022-04-25 23:04:17.227  INFO 5652 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] m.r.consumer.Consumer1                   : 程序运行时间：87355ms
