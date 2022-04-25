@@ -46,3 +46,18 @@
 2022-04-25 22:58:55.500  INFO 11688 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
 2022-04-25 22:58:55.517  INFO 11688 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is already stopped
 2022-04-25 22:58:55.517  INFO 11688 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is already stopped
+2022-04-25 23:01:51.877  INFO 13984 --- [main] m.r.RabbitMqLazyQueueApplicationTests    : Starting RabbitMqLazyQueueApplicationTests using Java 16.0.2 on mao with PID 13984 (started by mao in H:\程序\大三下期\rabbitMQ惰性队列)
+2022-04-25 23:01:51.878 DEBUG 13984 --- [main] m.r.RabbitMqLazyQueueApplicationTests    : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-04-25 23:01:51.879  INFO 13984 --- [main] m.r.RabbitMqLazyQueueApplicationTests    : The following 1 profile is active: "dev"
+2022-04-25 23:01:53.907  INFO 13984 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:5672]
+2022-04-25 23:01:53.966  INFO 13984 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#c269425:0/SimpleConnection@3e26482 [delegate=amqp://admin@127.0.0.1:5672/, localPort= 51339]
+2022-04-25 23:01:53.971  INFO 13984 --- [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable or auto-delete Exchange (exchange) durable:false, auto-delete:false. It will be deleted by the broker if it shuts down, and can be redeclared by closing and reopening the connection.
+2022-04-25 23:01:53.971  INFO 13984 --- [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (default_queue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-04-25 23:01:53.972  INFO 13984 --- [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (lazy_queue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-04-25 23:01:54.057  INFO 13984 --- [main] m.r.RabbitMqLazyQueueApplicationTests    : Started RabbitMqLazyQueueApplicationTests in 2.549 seconds (JVM running for 3.355)
+2022-04-25 23:01:54.653  INFO 13984 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2022-04-25 23:01:54.655  INFO 13984 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2022-04-25 23:01:55.039  INFO 13984 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2022-04-25 23:01:55.053  INFO 13984 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2022-04-25 23:01:55.054  INFO 13984 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is already stopped
+2022-04-25 23:01:55.055  INFO 13984 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is already stopped
